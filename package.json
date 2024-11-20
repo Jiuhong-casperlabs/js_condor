@@ -11,13 +11,20 @@
     "callEntry": "node src/V2/callEntry.js",
     "getTransactionInfo": "node src/V2/getTransactionInfo.js",
     "getEntityNamedKey": "node src/V2/getEntityNamedKey.js",
-    "test": "node src/V2/test.js"
+    "test": "node src/V2/test.js",
+    "mytest": "node src/legacy/my_test.js",
+    "mytest2": "node src/legacy/my_test2.js",
+    "ed25519": "node src/legacy/ed25519_m.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "casper-js-sdk": "^3.0.0-rc04",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/constants": "^5.7.0",
+    "@noble/hashes": "^1.5.0",
+    "casper-js-sdk": "^2.15.7",
     "esm": "^3.2.25"
   }
 }
